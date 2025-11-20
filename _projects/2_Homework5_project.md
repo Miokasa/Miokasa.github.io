@@ -24,7 +24,7 @@ This plot shows the total number of UFO sightings reported per year. This helps 
 - **Data transformations:** Grouped the original dataset by `year` using Pandas, removed rows with missing or zero coordinates.  
 
 **Interactivity:**  
-- tooltips allow users to identify exact yearly counts without cluttering the chart.
+- Tooltips allow users to identify exact yearly counts without cluttering the chart.
 - Tooltip shows the year and count for each point.  
 - Users can hover over a point to see the exact count, which helps highlight trends and spikes in the data.  
 
@@ -42,7 +42,7 @@ This plot shows UFO sightings on a map, with latitude vs. longitude, colored by 
 - **Data transformations:** Filtered out rows with missing or zero latitude/longitude.  
 
 **Interactivity:**  
-- the state dropdown helps viewers filter the map and focus on specific geographic regions.
+- The state dropdown helps viewers filter the map and focus on specific geographic regions.
 - Dropdown menu allows filtering sightings by state.  
 - Hovering over points shows city, state, date, and shape.  
 - `.interactive()` enables zooming/panning, making it easier to explore dense areas.  
