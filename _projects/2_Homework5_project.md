@@ -27,10 +27,9 @@ This plot shows the total number of UFO sightings reported per year. This helps 
 - Tooltips allow users to identify exact yearly counts without cluttering the chart.
 - Tooltip shows the year and count for each point.  
 - Users can hover over a point to see the exact count, which helps highlight trends and spikes in the data.  
+<vegachart schema-url="https://github.com/Miokasa/Miokasa.github.io/raw/main/assets/json/plot1.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/plot1.json" style="width: 100%"></vegachart>
 ---
-
 ## Plot 2: UFO Reports by Location
 
 This plot shows UFO sightings on a map, with latitude vs. longitude, colored by UFO shape. By mapping longitude and latitude, we can see the geographic distribution of sightings.
@@ -47,7 +46,7 @@ This plot shows UFO sightings on a map, with latitude vs. longitude, colored by 
 - Hovering over points shows city, state, date, and shape.  
 - `.interactive()` enables zooming/panning, making it easier to explore dense areas.  
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/plot2.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://github.com/Miokasa/Miokasa.github.io/raw/main/assets/json/plot2.json" style="width: 100%"></vegachart>
 
 ---
 ## Data & Analysis
