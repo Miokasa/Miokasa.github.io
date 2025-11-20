@@ -1,7 +1,7 @@
 ---
 name: Homework 5
 tools: [Python, Altair, vega-lite]
-image: assets/pngs/cars.png
+image: assets/pngs/ufo.png
 description: UFO Sightings Visualization Project for IS445
 custom_js:
   - vega.min
@@ -59,5 +59,5 @@ Below are links to the dataset and the Python notebook used to generate these pl
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/Miokasa/Miokasa.github.io/blob/main/python_notebooks/Workbook3.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/Miokasa/Miokasa.github.io/blob/main/python_notebooks/Workbook2.ipynb" text="The Analysis" %}
 </div>
